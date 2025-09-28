@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .herobg {
+            background: url('hero_2.jpg') center center/cover no-repeat;
+            min-height: 350px;
+            width: 100%;
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50%;
+            border: 1px solid white;
+            background-color: white;
+            height: 80px;
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+         input{
+            border: none;
+            border-radius: 20px;
+            width: 70vh;
+            height: 7vh;
+            margin-top: 30px;
+         }
+        .Navlinks ul li:hover{
+            transition: 0.2s;
+            color: blue;
+            cursor: pointer;
+        }
+        .Navlinks ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            align-items: center;
+        }
+        .m {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+        .searchrow {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+        .hero{
+            color: #fff;
+            text-align: center;
+            margin-top: 80px;
+            max-width: 600px;
+        }
+        .p2:hover{
+          transition: 0.2s;
+          text-decoration: underline;
+          cursor: pointer;
+         }
+         .Cards{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+         }
+         .card1{
+            border: 1px solid black;
+            text-align: center;
+            background-color: white;
+            width: 15%;
+            height: 50%;
+         }
+          .card2{
+            border: 1px solid black;
+            text-align: center;
+            background-color: white;
+            width: 15%;
+            height: 50%;
+         }
+          .card3{
+            border: 1px solid black;
+            text-align: center;
+            background-color: white;
+            width: 15%;
+            height: 50%;
+         }
+          .card4{
+            border: 1px solid black;
+            text-align: center;
+            background-color: white;
+            width: 15%;
+            height: 50%;
+         }
+         .Part2{
+            margin-top: 10%;
+            margin-left: 20px;
+            display: flex;
+            gap: 50%;
+         }
+            .img1{
+                margin-left: 20px;
+                width: 10%;
+                height: 250px;
+            }
+        .Person img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;      
+        }
+        .Person{
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        .testimonial {  
+            flex-direction: column;
+            width: 350px;
+            padding: 20px 15px;
+        }
+        .testimonial img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .testimonial h2{
+            font-size: 25px;
+            color: lightskyblue;
+        }
+        .Part7icons{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 20px;
+            gap: 10px;
+            margin-left: 40%;
+            
+        }
+        .Part8{
+            display: flex;
+            flex-direction: row;
+        }
+        .Part8 p{
+            display: inline-block;
+        }
+            .Part9{
+                align-items: center;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .Part2Cards {
+            gap: 40px !important;
+        }
+    </style>
+        <div class="herobg">
+            <nav>
+                <h2 style="color: blue;">Props</h2>
+                <div class="Navlinks">
+                    <ul>
+                        <li>Home</li>
+                        <li>Properties</li>
+                        <li>Services</li>
+                        <li>About</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="m">
+                <h2 style="color: white;">FIND A PERFECT DREAM HOUSE</h2>
+                <div class="searchrow">
+                    <input type="text" placeholder="Your Zip Code Or City. e.g. New York">
+                    <button style="color: white; border: none; width: 80px; height: 40px; border-radius: 20px; background-color: palevioletred; margin-top: 20px;">Search</button>
+                </div>
+                <p class="hero">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur similique debitis vel nisi qui reprehenderit totam? Quod maiores.</p>
+                <p class="p2" style="color: white;">View Properties ></p>
+            </div>
+        </div>
+          <div class="Cards">
+                <div class="card1">
+                   <i class="fa-solid fa-house"></i>
+                   <h5>New Properties</h5>
+                </div>
+                <div class="card2">
+                     <i class="fa-solid fa-house"></i>
+                    <h5>Contact Agent</h5>
+                </div>
+                <div class="card3">
+                     <i class="fa-solid fa-building"></i>
+                     <h5>Building For Sale</h5>
+                </div>
+                <div class="card4">
+                    <i class="fa-solid fa-building"></i>
+                    <h5>House For Sale</h5>
+                </div>
+            </div>
+            <div class="Part2">
+              <h1>POPULAR PROPERTIES</h1>
+              <button style="width: 30vh; height: 40px; border: 1px solid palevioletred; border-radius: 20px; color: white; background-color: palevioletred;">View All Properties</button>  
+            </div>
+                             <div class="Part2Cards" style="margin-top: 30px; gap: 40px; display: flex; flex-direction: row; gap: 30px;">
+                                 <div class="card5" style="text-align: center;">
+                                        <img style="width: 50%; height: 50%;" class="part2-card-img" src="img_1.jpg" alt="Property Image">
+                                        <h4>$3,298,000</h4>
+                                        <h6>5232 North Carolina Ave. 21BC</h6>
+                                        <h4>Carolina, USA</h4>
+                                        <i class="fa-solid fa-bed"></i>2 Beds
+                                        <i class="fa-solid fa-bath"></i>2 Baths
+                                 </div>
+                                 <div class="card5" style="text-align: center;">
+                                        <img style="width: 50%; height: 50%;" class="part2-card-img" src="img_2.jpg" alt="Property Image">
+                                        <h4>$2,100,000</h4>
+                                        <h6>1234 Sunset Blvd. 12A</h6>
+                                        <h4>Los Angeles, USA</h4>
+                                        <i class="fa-solid fa-bed"></i>3 Beds
+                                        <i class="fa-solid fa-bath"></i>2 Baths
+                                 </div>
+                                 <div class="card5" style="text-align: center;">
+                                        <img style="width: 50%; height: 50%;" class="part2-card-img" src="img_3.jpg" alt="Property Image">
+                                        <h4>$1,850,000</h4>
+                                        <h6>789 Ocean Dr. 7C</h6>
+                                        <h4>Miami, USA</h4>
+                                        <i class="fa-solid fa-bed"></i>4 Beds
+                                        <i class="fa-solid fa-bath"></i>3 Baths
+                                 </div>
+                             </div>
+            </div>
+            <div class="Part6">
+                <h1>Testimonals</h1> 
+                <div style="display: flex; align-items: center; gap: 20px; justify-content: center; margin-bottom: 20px;">
+                    <button style="height: 40px; width: 70px; border-radius: 20px; border: 1px solid #ccc; background: #f5f5f5;">Prev</button>
+                    <button style="height: 40px; width: 70px; border-radius: 20px; border: 1px solid #ccc; background: #f5f5f5;">Next</button>
+                </div>
+                <div class="Person">
+                    <div class="testimonial">
+                        <img src="person_3.jpg" alt="">
+                        <h2>Synthia Cameron</h2>
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live  the blind texts. Separated they live in  Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                         <h6>Designer, Co founder</h6>
+                    </div>
+                    <div class="testimonial">
+                        <img src="person_1.jpg" alt="">
+                        <h2>James Smith</h2>
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                         <h6>Designer, Co founder</h6>
+                    </div>
+                    <div class="testimonial">
+                        <img src="person_4.jpg" alt="">
+                        <h2>Davin Smith</h2>
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the  Semantics, a large language ocean.”</p>
+                          <h6>Designer, Co founder</h6>
+                    </div>
+                </div>
+                </div>
+                <hr>
+                <div class="Part7">
+                    <h2 style="text-align: center;">WE BRING DREAM HOMES TO <br> REALITY</h2>
+                    <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur <br> similique debitis vel nisi qui reprehenderit totam? Quod maiores.</p>
+                    <div style="display: flex; margin-right: 20%; margin-bottom: 20%;">
+                        <img src="hero_2.jpg" alt="" style="width: 50%; height: 20%; margin-left: 30px;">
+                        <div class="Part7icons">
+                            <i id="icon1" class="fa-solid fa-house"></i>
+                            <h2>QUALITY PROPERTIES</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Nostrum iste.</p>
+                             <i id="icon1" class="fa-solid fa-house"></i>
+                            <h2>QUALITY PROPERTIES</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Nostrum iste.</p>
+                             <i id="icon1" class="fa-solid fa-house"></i>
+                            <h2>QUALITY PROPERTIES</h2>
+                             <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Nostrum iste.</p>
+                        </div>
+                    </div>
+                        </div>                      
+                        </div>
+                        <div class="Part8" style="justify-content: center;">
+                            <div style="display: flex; flex-direction: column; align-items: flex-start; margin: 0 40px;">
+                                <h1 style="margin-top: 40px; margin-bottom: 0;">2917</h1>
+                                <p style="margin: 0;">#of Buy Properties</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column; align-items: flex-start; margin: 0 40px;">
+                                <h1 style="margin-top: 40px; margin-bottom: 0;">3918</h1>
+                                <p style="margin: 0;">#Of Sell Properties</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column; align-items: flex-start; margin: 0 40px;">
+                                <h1 style="margin-top: 40px; margin-bottom: 0;">38,928</h1>
+                                <p style="margin: 0;">#of All Properties</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column; align-items: flex-start; margin: 0 40px;">
+                            <h1 style="margin-top: 40px; margin-left: 40px;">1,291</h1>
+                            <p style="margin-left: 40px;">#of Agents</p>
+                            </div>
+                            </div>
+                            <div class="Part9">
+                                <h1>Our Agents</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur <br> similique debitis vel nisi qui reprehenderit totam? Quod maiores.</p>
+                                 <div class="Person">
+                    <div class="testimonial">
+                        <img src="person_3.jpg" alt="">
+                        <h2>Synthia Cameron</h2>
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live  the blind texts. Separated they live in  Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                         <i class="fa-brands fa-twitter"></i>
+                         <i class="fa-brands fa-facebook-f"></i>
+                         <i class="fa-brands fa-linkedin-in"></i>
+                         <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="testimonial">
+                        <img src="person_1.jpg" alt="">
+                        <h2>James Smith</h2>
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                         <i class="fa-brands fa-twitter"></i>
+                         <i class="fa-brands fa-facebook-f"></i>
+                         <i class="fa-brands fa-linkedin-in"></i>
+                         <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="testimonial">
+                        <img src="person_4.jpg" alt="">
+                        <h2>Davin Smith</h2>
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the  Semantics, a large language ocean.”</p>
+                          <i class="fa-brands fa-twitter"></i>
+                         <i class="fa-brands fa-facebook-f"></i>
+                         <i class="fa-brands fa-linkedin-in"></i>
+                         <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>                         
+                </div>
+                            
+</body>
+</html>
